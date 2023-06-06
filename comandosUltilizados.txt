@@ -1,0 +1,42 @@
+git init
+git branch -M main
+git remote add origin https://github.com/yulsep/20230605-YulianaSepulveda.git
+git push -u origin main
+touch comandos.txt main.js index.html
+git add .
+git commit -m "commit 01 de YulianaSepulveda"
+git push -u origin main
+git branch -b "feature01"
+git branch
+git branch "feature01"
+git branch
+git checkout "feature01"
+mkdir Terminal Hardware
+touch ./hardware/resumen.xt
+touch .hardware/resumen.xt
+touch hardware/resumen.xt
+touch ./Hardware/resumen.txt
+ls -R
+touch ./Termianl/resumen.txt
+touch ./Terminal/resumen.txt
+ls -R
+git add .
+git commit -m "commit 02 de YulianaSepulveda"
+git push -u origin feature01
+git checkout -b "feature02"
+git branch
+nano Terminal/resumen.text
+nano Hardware/resumen.text
+git push -u origin feature02
+git checkout main
+mv comandos.txt comandosUtilizados.txt
+ls -R
+nano comandosUltilizados.txt
+git checkout feature02
+git status
+git add .
+git commit -m "commit 03 de YulianaSepulveda"
+git push origin feature02
+git checkout main
+mv comandos.txt comandosUtilizados.txt
+history
